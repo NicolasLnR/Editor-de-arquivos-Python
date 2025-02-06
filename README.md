@@ -1,4 +1,4 @@
-# Processador de Arquivo de Erros RIRA
+# Processador de Arquivos Python
 
 Este projeto processa um arquivo de texto que contém logs de erros.
 
