@@ -9,14 +9,14 @@ O script realiza os seguintes passos:
 1. Permite o upload manual de um arquivo de log (`ERROS -  LOG.txt`).
 2. Lê o arquivo enviado, tentando diferentes codificações (UTF-8, Latin-1, ISO-8859-1).
 3. Processa o conteúdo do arquivo para dividir entradas longas de `TO_CLOB` em duas partes.
-4. Salva o arquivo processado com o nome `ERROS - RIRA LOG_PROCESSADO.txt`.
+4. Salva o arquivo processado com o nome `PROCESSADO.txt`.
 5. Baixa o arquivo processado para o computador do usuário.
 
 ## Como Usar
 
-1. Faça o upload do arquivo de log `ERROS -  LOG.txt` quando solicitado.
+1. Faça o upload de um arquivo quando solicitado.
 2. O script tentará ler o arquivo em diferentes codificações (UTF-8, Latin-1, ISO-8859-1) e processar as linhas.
-3. Após o processamento, o arquivo será baixado automaticamente como `ERROS - RIRA LOG_PROCESSADO.txt`.
+3. Após o processamento, o arquivo será baixado automaticamente como `PROCESSADO.txt`.
 
 ## Dependências
 
@@ -27,7 +27,7 @@ O script realiza os seguintes passos:
 
 Este script foi projetado para ser executado no Google Colab. Não há necessidade de instalação adicional além do ambiente Colab.
 
-1. Faça o upload do arquivo `ERROS - RIRA LOG.txt` quando solicitado.
+1. Faça o upload de um arquivo quando solicitado.
 2. Execute o script para processar o arquivo.
 
 ## Observações
