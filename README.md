@@ -6,9 +6,9 @@ Este projeto processa um arquivo de texto que contém logs de erros.
 
 O script realiza os seguintes passos:
 
-1. Permite o upload manual de um arquivo de log (`ERROS -  LOG.txt`).
+1. Permite o upload manual de um arquivo de log
 2. Lê o arquivo enviado, tentando diferentes codificações (UTF-8, Latin-1, ISO-8859-1).
-3. Processa o conteúdo do arquivo para dividir entradas longas de `TO_CLOB` em duas partes.
+3. Processa o conteúdo do arquivo para dividir entradas longas de texto em varias partes.
 4. Salva o arquivo processado com o nome `PROCESSADO.txt`.
 5. Baixa o arquivo processado para o computador do usuário.
 
